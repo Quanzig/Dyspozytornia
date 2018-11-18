@@ -1,0 +1,44 @@
+body
+{
+	background-color: darkgray;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #000;
+	margin: 20px;
+}
+
+.mainBody
+{
+	text-align: center;
+	color: #000;
+}
+
+.mainText {
+	background-color: lightgray;
+}
+
+.credits {
+	margin-top: 20px;
+}
+
+.row {
+	background-color: lightgray;
+	border: outset;
+	border-width: thin;
+	border-color: #C0D06F;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar
+{
+	min-height: 57px;
+}
+
