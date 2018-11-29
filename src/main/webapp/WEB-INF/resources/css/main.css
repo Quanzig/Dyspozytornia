@@ -1,44 +1,59 @@
-body
-{
-	background-color: darkgray;
-	color: #efefef;
+body {
+    background-image: url("../../resources/img/truck-wall.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #000000;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #000000;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
 }
 
-h1
-{
-	font-size: 36px;
-	font-weight: 400;
-	color: #000;
-	margin: 20px;
+footer {
+    color: #ffffff;
 }
 
-.mainBody
-{
-	text-align: center;
-	color: #000;
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 20px;
+}
+
+.fl_right {
+    float: right;
+}
+
+.mainBody {
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    color: #000;
+}
+
+.title {
+    padding-left: 20px;
+    text-transform: uppercase;
 }
 
 .mainText {
-	background-color: lightgray;
+    padding: 20px;
+    color: #ffffff;
 }
 
 .credits {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .row {
-	background-color: lightgray;
-	border: outset;
-	border-width: thin;
-	border-color: #C0D06F;
-	padding-top: 10px;
-	padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, .3);
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
-.navbar
-{
-	min-height: 57px;
+.navbar {
+    min-height: 57px;
 }
 
