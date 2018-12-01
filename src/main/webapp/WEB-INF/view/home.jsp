@@ -1,6 +1,5 @@
 <%@ taglib prefix="c" uri="http://www.springframework.org/tags" %>
 
-
 <!DOCTYPE html>
 <html>
 <%@include file="fragments/head.jsp"%>
