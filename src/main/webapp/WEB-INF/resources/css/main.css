@@ -1,9 +1,12 @@
 body {
     background-image: url("../../resources/img/truck-wall.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 100%;
     background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #000000;
     overflow-x: hidden;
     overflow-y: auto;
@@ -23,8 +26,19 @@ h1 {
     margin: 20px;
 }
 
-.fl_right {
-    float: right;
+a p{
+    color: #6c757d;
+    text-decoration: underline;
+}
+
+a p:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
 }
 
 .mainBody {
