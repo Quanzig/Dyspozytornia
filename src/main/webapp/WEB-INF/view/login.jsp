@@ -30,7 +30,7 @@
                             <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-centered">
                                 <div class="checkbox">
                                     <label>
-                                        <input type="checkbox"> Zapamiętaj
+                                        <input type="checkbox"> Zapamietaj
                                     </label>
                                 </div>
                             </div>
@@ -38,11 +38,11 @@
                         <div class="form-group">
                             <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-centered">
                                 <button type="submit" class="btn btn-default">Zaloguj</button>
-                                <button type="reset" class="btn btn-default">Wyczyść</button>
+                                <button type="reset" class="btn btn-default">Wyczysc</button>
                             </div>
                         </div>
                     </form>
-                    <a href="#"><p>Zarejestruj się</p></a>
+                    <a href="#"><p>Zarejestruj sie</p></a>
 
                 </div>
 
