@@ -3,7 +3,7 @@
 <header>
     <nav class="navbar navbar-dark navbar-expand-lg">
 
-        <a class="navbar-brand" href="#"><img src="<c:url value="resources/img/blue-truck.png"/>" width="60" height="30"
+        <a class="navbar-brand" href="/home"><img src="<c:url value="resources/img/blue-truck.png"/>" width="60" height="30"
                                               class="d-inline-block mr-1 align-bottom" alt="error"> DYSPOZYTORNIA</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu">
@@ -14,18 +14,17 @@
         <div class="collapse navbar-collapse" id="mainmenu">
             <ul class="navbar-nav mr-auto">
 
-
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> O projekcie </a>
+                    <a class="nav-link" href="about"> O projekcie </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> Kontakt </a>
+                    <a class="nav-link" href="contact"> Kontakt </a>
                 </li>
 
                 <j:if test="${sessionScope.user==null}">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Logowanie </a>
+                        <a class="nav-link" href="login"> Logowanie </a>
                     </li>
                 </j:if>
 
