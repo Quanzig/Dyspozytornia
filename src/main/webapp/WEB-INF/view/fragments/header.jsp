@@ -15,16 +15,16 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link" href="about"> O projekcie </a>
+                    <a class="nav-link" href="<j:url value="/about"/>"> O projekcie </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="contact"> Kontakt </a>
+                    <a class="nav-link" href="<j:url value="/contact"/>"> Kontakt </a>
                 </li>
 
                 <j:if test="${sessionScope.user==null}">
                     <li class="nav-item">
-                        <a class="nav-link" href="login"> Logowanie </a>
+                        <a class="nav-link" href="<j:url value="/login"/>"> Logowanie </a>
                     </li>
                 </j:if>
 

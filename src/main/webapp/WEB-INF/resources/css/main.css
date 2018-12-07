@@ -1,13 +1,10 @@
 body {
-    background-image: url("../../resources/img/truck-wall.jpg");
-    background-attachment: fixed;
     background-clip: border-box;
     background-origin: padding-box;
     background-position-x: 50%;
     background-position-y: 0%;
-    background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000000;
+    background: #000000 url("../../resources/img/truck-wall.jpg") no-repeat fixed;
     overflow-x: hidden;
     overflow-y: auto;
     color: #000000;

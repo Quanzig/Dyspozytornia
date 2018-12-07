@@ -42,7 +42,7 @@
                             </div>
                         </div>
                     </form>
-                    <a href="login/register"><p>Zarejestruj sie</p></a>
+                    <a href="<j:url value="/register"/>"><p>Zarejestruj sie</p></a>
 
                 </div>
 
