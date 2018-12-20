@@ -68,3 +68,10 @@ a p:hover{
     min-height: 57px;
 }
 
+.textleft{
+    text-align: left;
+}
+
+.paddingbottom{
+    padding-bottom: 30px;
+}
