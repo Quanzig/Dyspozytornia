@@ -18,15 +18,16 @@
                     <div class="paddingbottom">
                         <h3>Opis projektu:</h3>
                         <p class="textleft">
-                            System wspomaga zarządzanie dostawami z sieci magazynów zlokalizowanych na obszarze Gdańska do sieci sklepów sprzedaży detalicznej.
+                            System wspomaga zarzadzanie dostawami z sieci magazynow zlokalizowanych na obszarze Gdanska
+                            do sieci sklepow sprzedazy detalicznej.
                         </p>
                     </div>
 
                     <div class="paddingbottom">
-                        <h3>Użyte technologie i narzędzia:</h3>
+                        <h3>Uzyte technologie i narzedzia:</h3>
                         <ul class="textleft">
-                            <li>środowisko programistyczne IntelliJ IDEA Ultimate,</li>
-                            <li>Java – narzędzie Maven oraz framework Spring,</li>
+                            <li>Srodowisko programistyczne IntelliJ IDEA Ultimate,</li>
+                            <li>Java – narzedzie Maven oraz framework Spring,</li>
                             <li>MySQL,</li>
                             <li>HTML, CSS, JavaScript – framework Bootstrap,</li>
                             <li>Photoshop, Gimp,</li>
@@ -37,7 +38,7 @@
                     </div>
 
                     <div class="paddingbottom">
-                        <h3>Skład naszego zespołu</h3>
+                        <h3>Sklad naszego zespolu</h3>
                         <ul class="textleft">
                             <li>Dawid Walenciak</li>
                             <li>Oliwer Lipiński</li>
