@@ -16,18 +16,24 @@
 
                 <div class="mainText">
                     <p>
-                        Oferujemy naszym Klientom profesjonalne rozwiązanie w zakresie transportu i dystrybucji. Usługę tę świadczymy na terenie miasta Gdańsk.
-                        Nasi Klienci mągą także liczyć na wsparcie w zakresie organizacji i realizacji transportu, nad którym skupiony jest wyszkolony zespół naszej firmy.
+                        Oferujemy naszym Klientom profesjonalne rozwiazanie w zakresie transportu i dystrybucji. Usluge te swiadczymy
+                        na terenie miasta Gdansk. Nasi Klienci moga takze liczyc na wsparcie w zakresie organizacji i realizacji
+                        transportu, nad ktorym skupiony jest wyszkolony zespol naszej firmy.
                     </p>
                     <p>
-                        Filozofia biznesowa, na podstawie której staramy się budować naszą firmę opiera się o takie wartości jak profesjonalizm, punktualność i bezpieczeństwo.
+                        Filozofia biznesowa, na podstawie ktorej staramy sie budowac nasza firme opiera sie o takie wartosci jak
+                        profesjonalizm, punktualnosc i bezpieczenstwo.
                     </p>
 
                     <p>
-                        Profesjonalizm rozumiemy jako zaangażowanie naszego czasu i uwagi, aby w jak najlepszy sposób sprostać oczekiwaniom naszych Klientów.
+                        Profesjonalizm rozumiemy jako zaangazowanie naszego czasu i uwagi, aby w jak najlepszy sposob sprostac
+                        oczekiwaniom naszych Klientow.
                     </p>
                     <p>
-                        Zdając sobie sprawę jak ważna jest punktualność i bezpieczeństwo naszych usług, staramy się precyzyjnie określić termin dotarcia przesyłek, uwzględniając możliwe utrudnienia na drodze. W realizacji tych wymagań pomaga nam też nowoczesna flota i technologia, dzięki którym jakość naszych usług jest na wysokim poziomie.
+                        Zdajac sobie sprawe jak wazna jest punktualnosc i bezpieczenstwo naszych uslug, staramy sie precyzyjnie
+                        okreslic termin dotarcia przesylek, uwzgledniajac mozliwe utrudnienia na drodze. W realizacji tych
+                        wymagan pomaga nam tez nowoczesna flota i technologia, dzieki ktorym jakosc naszych uslug jest
+                        na wysokim poziomie.
                     </p>
                 </div>
 
