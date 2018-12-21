@@ -7,8 +7,7 @@
                                               class="d-inline-block mr-1 align-bottom" alt="error"> DYSPOZYTORNIA</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu">
-            <span class="navbar-toggler-icon">
-            </span>
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="mainmenu">
@@ -30,19 +29,26 @@
 
                 <j:if test="${sessionScope.user!=null}">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Magazyny </a>
+                        <a class="nav-link" href="/stores"> Magazyny </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Punkty </a>
+                        <a class="nav-link" href="/shops"> Punkty </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Dostawy </a>
+                        <a class="nav-link" href="/supply"> Dostawy </a>
                     </li>
+                    <j:if test="${sessionScope.userPrivileges==1}">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/account"> Moje konto </a>
+                        </li>
+                    </j:if>
+                    <j:if test="${sessionScope.userPrivileges==2}">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin-panel"> Panel administracyjny </a>
+                        </li>
+                    </j:if>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Moje konto </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> Wyloguj </a>
+                        <a class="nav-link" href="/logout"> Wyloguj </a>
                     </li>
                 </j:if>
 

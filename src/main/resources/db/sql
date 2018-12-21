@@ -1,0 +1,89 @@
+use sipdb;
+
+create user 'sipAccessUser'@'localhost' identified with mysql_native_password by
+  'sip';
+
+grant all privileges on *.* to 'sipAccessUser'@'localhost';
+
+create table if not exists Stores (
+  StoreId int not null auto_increment primary key,
+  Name varchar(255) not null,
+  Longitude float not null,
+  Latitude float not null);
+
+create table if not exists Users (
+  UserId int not null auto_increment primary key,
+  StoreId int not null,
+  UserName varchar(255) not null,
+  FirstName varchar(255) not null,
+  LastName varchar(255) not null,
+  Email varchar(255) not null,
+  UserPassword varchar(255) not null,
+  Privileges int(1) not null default 1,
+  foreign key (StoreId) references Stores(StoreId));
+
+create table if not exists Shops (
+  ShopId int not null auto_increment primary key,
+  Name varchar(255) not null,
+  Longitude float not null,
+  Latitude float not null);
+
+create table if not exists Drivers (
+  DriverId int not null auto_increment primary key,
+  StoreId int not null,
+  FirstName varchar(255) not null,
+  LastName varchar(255) not null,
+  foreign key (StoreId) references Stores(StoreId)
+);
+
+create table if not exists Supply (
+  SupplyId int not null auto_increment primary key,
+  StoreId int not null,
+  ShopId int not null,
+  DriverId int not null,
+  foreign key (StoreId) references Stores(StoreId),
+  foreign key (ShopId) references Shops(ShopId),
+  foreign key (DriverId) references Drivers(DriverId)
+);
+
+select * from Stores;
+select * from Users;
+select * from Shops;
+select * from Drivers;
+select * from Supply;
+
+desc Stores;
+desc Users;
+desc Shops;
+desc Drivers;
+desc Supply;
+
+insert into Stores (Name, Longitude, Latitude)
+value ('Magazyn1', '0', '0');
+
+insert into Stores (Name, Longitude, Latitude)
+value ('Magazyn2', '1', '1');
+
+insert into Users (StoreId, UserName, FirstName, LastName, Email, UserPassword, Privileges)
+value ('1','admin', 'Admin', 'AdminLast', 'admin@admin.com', 'admin', '2');
+
+insert into Shops (Name, Longitude, Latitude)
+value ('Sklep1', '0', '0');
+
+insert into Shops (Name, Longitude, Latitude)
+value ('Sklep2', '0', '0');
+
+insert into Shops (Name, Longitude, Latitude)
+value ('Sklep3', '0', '0');
+
+insert into Drivers (StoreId, FirstName, LastName)
+value ('1', 'Fred', 'Lewy');
+
+insert into Drivers (StoreId, FirstName, LastName)
+value ('1', 'Dżordż', 'Prawy');
+
+insert into Drivers (StoreId, FirstName, LastName)
+value ('2', 'Janek', 'Górny');
+
+insert into Drivers (StoreId, FirstName, LastName)
+value ('2', 'Paweł', 'Dolny');
