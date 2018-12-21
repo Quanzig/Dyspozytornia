@@ -23,13 +23,18 @@
 
                     <div class="paddingbottom">
                         <h3>Dane adresowe</h3>
-                        <p>80-980 Gdańsk</p>
+                        <p>80-980 Gdansk</p>
                         <p>ul. Gabriela Narutowicza 11</p>
                     </div>
 
                     <div class="paddingbottom">
                         <h3>Lokalizacja</h3>
-                        (MAPA Z LOKALIZACJA SIEDZIBY)
+                        <div class="mapouter col-centered">
+                            <div class="gmap_canvas">
+                                <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=gdansk%20politechnika%20gdanska&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <a href="https://www.pureblack.de/webdesign/">webdesign pureblack</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
